@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container {
+/* background-color:aqua ; */
+width: 90%;
+margin: auto;
+}
+header {
+    background-color: #87509c ;
+    width: 100%;
+    float: left;
+}
+nav ul{
+width: 100%;
+float: left;
+/* margin-left: 25%; */
+}
+nav ul li{
+display: inline-block;
+line-height: 40px;
+margin: 0 10px;
+}
+.logo-part{
+width: 50%;
+float: left;
+}
+.menu-part{
+width: 50%;
+float: left;
+}
+.hero-part {
+width: 100%;
+float: left;
+}
+            /* Service section */
+#services {
+background-color: #17c2a4;
+width: 100%;
+float: left;
+text-align: center;
+}
+.service-writing-part {
+width: 100%;
+float: left;
+margin-top:100px;
+}
+.service-box-part {
+width: 100%;
+float: left;
+margin-top: 100px;
+}
+.service-box {
+width: 25%;
+float: left;
+}
+                                  /* Team section */
+#team {
+background-color: #e7f1f8;
+width: 100%;
+float: left;
+text-align: center;
+}
+.team-writting {
+width: 100%;
+float: left;
+margin-top: 100px;
+}
+.team-box-part {
+width: 100%;
+float: left;
+margin-top: 100px;
+}
+.team-box {
+width: 25%;
+float: left;
+
+
+}
+#radous {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: 8px solid #17c2ba;
+    margin-top: 20px;
+}
+
+#skills {
+    background-color: #ffffff;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.skills-writting-part {
+    width: 100%;
+float: left;
+margin-top: 100px;
+}
+.skills-box-part {
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+}
+.skills-box {
+    width: 25%;
+    /* height: 160px; */
+    position: relative;
+    float: left;
+    
+}
+.skills-box h3 {
+    width: 50%;
+    
+    /* height: 160px; */
+    text-align: center;
+    
+    float: left;
+    margin-top: 10px;
+}
+.outer {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+            -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    padding: 20px;
+}
+.inner {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+             inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                   -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                    0.5px 0.5px 0px rgba(255, 255, 255,0.15),
+                     0px 12px 10px -10px rgba(0, 0, 0, 0.5);
+
+}
+#number {
+font-weight: 600px;
+color: #555;
+}
+circle {
+fill: none;
+stroke: #30bae7 ;
+stroke-width: 20px;
+stroke-dasharray: 472;
+stroke-dashoffset: 472;
+animation: shad-1 2s linear forwards;
+}
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+@keyframes shad-1 {
+    100%{
+        stroke-dashoffset: 90;
+    }
+}
+#box-2 {
+    fill: none;
+    stroke: #d74680 ;
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: shad-2 2s linear forwards;
+    }
+    @keyframes shad-2 {
+        100%{
+            stroke-dashoffset: 118;
+        }
+    }
+    #box-3 {
+        fill: none;
+        stroke: #15c7a8 ;
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: shad-3 2s linear forwards;
+        }
+        @keyframes shad-3 {
+            100%{
+                stroke-dashoffset: 141;
+            }
+        }
+        #box-4 {
+            fill: none;
+            stroke: #eb7d4b ;
+            stroke-width: 20px;
+            stroke-dasharray: 472;
+            stroke-dashoffset: 472;
+            animation: shad-4 2s linear forwards;
+            }
+            @keyframes shad-4 {
+                100%{
+                    stroke-dashoffset: 165;
+                }
+            }
